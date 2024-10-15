@@ -1,4 +1,5 @@
 # xss_check
+<span style="color: red;">This text is red!</span>
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
 ***XSS Vulnerability Scanner***
@@ -34,7 +35,7 @@ Arguments:
 
 -wc, --wordlist2: Path to a wordlist for testing CSS parameters.
 -wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
-`#ffffff` try
+
 Example:
 ```python xss_scanner.py -u "http://example.com/search" -m POST -w post_payloads.txt -wc css_payloads.txt -wj js_payloads.txt```
 
