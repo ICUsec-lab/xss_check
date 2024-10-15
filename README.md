@@ -1,5 +1,5 @@
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 # xss_check
-<span style="color: red;">This text is red!</span>
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
 ***XSS Vulnerability Scanner***
