@@ -18,7 +18,7 @@ Basic Usage
 To scan a target URL for XSS vulnerabilities:
 ```python xss_scanner.py -u <target_url> -m <method> -w <wordlist_path>```
 
-\*Arguments:\*
+\Arguments:\
 
 -u, --url: The target URL to scan.
 -m, --method: The HTTP method to use (GET or POST). Default is GET.
