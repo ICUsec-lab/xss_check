@@ -34,6 +34,7 @@ Arguments:
 
 -wc, --wordlist2: Path to a wordlist for testing CSS parameters.
 -wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
+`#ffffff` try
 Example:
 ```python xss_scanner.py -u "http://example.com/search" -m POST -w post_payloads.txt -wc css_payloads.txt -wj js_payloads.txt```
 
