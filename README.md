@@ -2,12 +2,10 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ## Table of Contents
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
-# xss_check
+
+# xss_check:
+## Introduction:
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
 ***XSS Vulnerability Scanner***
