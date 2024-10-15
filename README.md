@@ -33,4 +33,50 @@ Change to the project directory using:
   ```bash
 cd xss_check
 ```
-3.
+3.**Install Required Packages**
+To run the tool, you need to install the following Python packages. You can do this by using a requirements.txt file.
+Using requirements.txt:
+```bash
+pip3 install -r requirements.txt
+```
+
+**After installation, you can check the available options and usage instructions for the script by running:**
+```bash
+python3 xss_scanner.py -h
+```
+
+##**Usage**
+**Basic Usage**
+To scan a target URL for XSS vulnerabilities:
+```bash
+python3 xss_scanner.py -u <target_url> -m <method> -w <wordlist_path>
+```
+Arguments:
+
+-u, --url: The target URL to scan.
+-m, --method: The HTTP method to use (GET or POST). Default is GET.
+-w, --wordlist: Path to the wordlist file containing payloads for testing GET and POST parameters.
+
+Example:
+1.
+```bash
+python xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt
+```
+2.
+```bash
+python xss_scanner.py -u "http://example.com/" -m POST -w payloads.txt
+```
+
+**Scanning CSS and JavaScript Parameters**
+You can also supply additional wordlists for CSS and JavaScript scanning:
+```bash
+python xss_scanner.py -u <target_url> -m <method> -w <post/get_wordlist> -wc <css_wordlist> -wj <js_wordlist>
+```
+
+Arguments:
+
+-wc, --wordlist2: Path to a wordlist for testing CSS parameters.
+-wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
+```bash
+python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
+```
