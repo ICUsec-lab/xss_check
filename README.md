@@ -81,7 +81,8 @@ Arguments:
 ```bash
 python3 xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
-![CSS or JS Parameter Scan](css_js_parameters.png)
+<img src="css_js_parameters.png" alt="CSS or JS Parameter Scan" width="400"/>
+
 **scanning your own parameters**
 you can scan your own parameters by setting them with the next Arguments:
 
