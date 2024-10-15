@@ -80,3 +80,5 @@ Arguments:
 ```bash
 python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
+## Screenshots
+![Screenshot](https://via.placeholder.com/800x400.png?)
