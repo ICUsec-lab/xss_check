@@ -1,7 +1,7 @@
 # xss_check
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
-*** ***XSS Vulnerability Scanner*** ***
+***XSS Vulnerability Scanner***
 This tool is designed to scan for Cross-Site Scripting (XSS) vulnerabilities in GET and POST parameters, as well as scan for potential vulnerabilities in CSS and JavaScript parameters. It supports using multiple wordlists to test a wide range of payloads.
 
 __Features__ 
