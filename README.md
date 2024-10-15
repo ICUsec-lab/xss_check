@@ -61,27 +61,27 @@ Arguments:
 Example:
 1.
 ```bash
-python xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt
+python3 xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt
 ```
 2.
 ```bash
-python xss_scanner.py -u "http://example.com/" -m POST -w payloads.txt
+python3 xss_scanner.py -u "http://example.com/" -m POST -w payloads.txt
 ```
 
 **Scanning CSS and JavaScript Parameters**
 You can also supply additional wordlists for CSS and JavaScript scanning:
 ```bash
-python xss_scanner.py -u <target_url> -m <method> -w <post/get_wordlist> -wc <css_wordlist> -wj <js_wordlist>
+python3 xss_scanner.py -u <target_url> -m <method> -w <post/get_wordlist> -wc <css_wordlist> -wj <js_wordlist>
 ```
 
 Arguments:
 
 -wc, --wordlist2: Path to a wordlist for testing CSS parameters.
 -wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
-[css or js paramater scan][css_js_parameters.png]
 ```bash
-python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
+python3 xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
+![CSS or JS Parameter Scan](css_js_parameters.png)
 **scanning your own parameters**
 you can scan your own parameters by setting them with the next Arguments:
 
@@ -90,6 +90,9 @@ Arguments:
 -pg, --get-params:for setting your own get parameters to scan
 -pc, --css-params:for setting your own css parameters to scan
 -pj --js-params:for setting your own js parameters to scan
+```bash
+python3 xss_scanner.py -u "http://example.com/search" -m POST/GET -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt -pp test -pg test -pc test.css -pj test.js
+```
 
 ## Screenshots
 **post parameter auto scan**
