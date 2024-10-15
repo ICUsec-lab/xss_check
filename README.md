@@ -11,12 +11,12 @@ Scans for potential vulnerabilities in dynamic CSS and JavaScript parameters.
 Accepts multiple wordlists for payload testing.
 Requirements
 To run the tool, you need to install the following Python packages:
-!```pip install argparse requests colorama beautifulsoup4```!
+```pip install argparse requests colorama beautifulsoup4```
 
 *Usage*
 Basic Usage
 To scan a target URL for XSS vulnerabilities:
-!```python xss_scanner.py -u <target_url> -m <method> -w <wordlist_path>```!
+```python xss_scanner.py -u <target_url> -m <method> -w <wordlist_path>```
 
 Arguments:
 
@@ -24,16 +24,16 @@ Arguments:
 -m, --method: The HTTP method to use (GET or POST). Default is GET.
 -w, --wordlist: Path to the wordlist file containing payloads for testing GET and POST parameters.
 Example:
-!```python xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt```!
+```python xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt```
 
 Scanning CSS and JavaScript Parameters
 You can also supply additional wordlists for CSS and JavaScript scanning:
-!```python xss_scanner.py -u <target_url> -m <method> -w <post_wordlist> -wc <css_wordlist> -wj <js_wordlist>```!
+```python xss_scanner.py -u <target_url> -m <method> -w <post_wordlist> -wc <css_wordlist> -wj <js_wordlist>```
 
 Arguments:
 
 -wc, --wordlist2: Path to a wordlist for testing CSS parameters.
 -wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
 Example:
-!```python xss_scanner.py -u "http://example.com/search" -m POST -w post_payloads.txt -wc css_payloads.txt -wj js_payloads.txt```!
+```python xss_scanner.py -u "http://example.com/search" -m POST -w post_payloads.txt -wc css_payloads.txt -wj js_payloads.txt```
 
