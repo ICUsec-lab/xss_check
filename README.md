@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-
+- [Screenshots](#Screenshots)
 # xss_check:
 
 ## Introduction:
@@ -82,4 +82,4 @@ python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payload
 ```
 ## Screenshots
 ![Screenshot](post_parameters.png)
-![Screenshot]()
+![Screenshot](css_js_parameters.png)
