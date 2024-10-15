@@ -6,6 +6,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#Screenshots)
+- [![License](LICENSE)
 # xss_check:
 
 ## Introduction:
