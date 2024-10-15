@@ -78,9 +78,19 @@ Arguments:
 
 -wc, --wordlist2: Path to a wordlist for testing CSS parameters.
 -wj, --wordlist3: Path to a wordlist for testing JavaScript parameters.
+[css or js paramater scan][css_js_parameters.png]
 ```bash
 python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
+**scanning your own parameters**
+you can scan your own parameters by setting them with the next Arguments:
+
+Arguments:
+-pp, --post-params: for setting your own post parameters to scan
+-pg, --get-params:for setting your own get parameters to scan
+-pc, --css-params:for setting your own css parameters to scan
+-pj --js-params:for setting your own js parameters to scan
+
 ## Screenshots
 **post parameter auto scan**
 ![Screenshot](post_parameters.png)
