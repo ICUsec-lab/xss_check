@@ -26,12 +26,11 @@ Follow these steps to install the tool:
 1. **Clone the Repository**  
    Open your terminal and run the following command to clone the repository:
    ```bash
-   git clone https://github.com/ICUsec-lab/xss_check/''
+   git clone https://github.com/ICUsec-lab/xss_check/
+   
 2.**Navigate to the Project Directory**
 Change to the project directory using:
   ```bash
-cd <project_directory>''
-
-
+cd xss_check
 
 
