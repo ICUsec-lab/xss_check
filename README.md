@@ -1,10 +1,10 @@
 # xss_check
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
-*XSS Vulnerability Scanner*
+*** ***__ __*XSS Vulnerability Scanner*__ __*** ***
 This tool is designed to scan for Cross-Site Scripting (XSS) vulnerabilities in GET and POST parameters, as well as scan for potential vulnerabilities in CSS and JavaScript parameters. It supports using multiple wordlists to test a wide range of payloads.
 
-*Features*
+__ __*Features*__ __
 Automatically discover GET and POST parameters.
 Scans for XSS vulnerabilities in GET and POST requests.
 Scans for potential vulnerabilities in dynamic CSS and JavaScript parameters.
@@ -13,7 +13,7 @@ Requirements
 To run the tool, you need to install the following Python packages:
 ```pip install argparse requests colorama beautifulsoup4```
 
-*Usage*
+__ __*Usage*__ __
 Basic Usage
 To scan a target URL for XSS vulnerabilities:
 ```python xss_scanner.py -u <target_url> -m <method> -w <wordlist_path>```
