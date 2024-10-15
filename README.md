@@ -84,3 +84,4 @@ python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payload
 ## Screenshots
 ![Screenshot](post_parameters.png)
 ![Screenshot](css_js_parameters.png)
+![Screenshot](GET_parameters.png)
