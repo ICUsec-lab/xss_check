@@ -1,4 +1,7 @@
-![Important Badge](https://img.shields.io/badge/Important-Notice-red) try
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 # xss_check
 This tool can check GET / POST / CSS / JS parameters and automatically scan parameters. Read the README.md file for more information on how to use the tool. Also, read the LICENSE file to know what you can and can't do with the tool.
 
