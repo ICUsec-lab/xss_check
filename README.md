@@ -82,6 +82,11 @@ Arguments:
 python xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
 ## Screenshots
+**post parameter auto scan**
 ![Screenshot](post_parameters.png)
+
+**css and js parameter auto scan**
 ![Screenshot](css_js_parameters.png)
+
+**get parameter auto scan**
 ![Screenshot](GET_parameters.png)
