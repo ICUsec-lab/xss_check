@@ -97,7 +97,7 @@ Arguments:
 ```bash
 python3 xss_scanner.py -u "http://example.com/search" -m POST/GET -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt -pp test -pg test -pc test.css -pj test.js
 ```
-<img src="own_parameter.png" alt="Own Parameter Scan" width="500"/>
+<img src="own_parameters.png" alt="Own Parameter Scan" width="500"/>
 
 ## Screenshots
 **post parameter auto scan**
