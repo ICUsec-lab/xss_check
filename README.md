@@ -63,10 +63,13 @@ Example:
 ```bash
 python3 xss_scanner.py -u "http://example.com/search?q=test" -m GET -w payloads.txt
 ```
+<img src="GET_parameters.png" alt="GET Parameter Scan" width="500"/>
+
 2.
 ```bash
 python3 xss_scanner.py -u "http://example.com/" -m POST -w payloads.txt
 ```
+<img src="post_parameters.png" alt="POST Parameter Scan" width="500"/>
 
 **Scanning CSS and JavaScript Parameters**
 You can also supply additional wordlists for CSS and JavaScript scanning:
@@ -81,7 +84,7 @@ Arguments:
 ```bash
 python3 xss_scanner.py -u "http://example.com/search" -m POST -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt
 ```
-<img src="css_js_parameters.png" alt="CSS or JS Parameter Scan" width="400"/>
+<img src="css_js_parameters.png" alt="CSS or JS Parameter Scan" width="500"/>
 
 **scanning your own parameters**
 you can scan your own parameters by setting them with the next Arguments:
@@ -94,6 +97,7 @@ Arguments:
 ```bash
 python3 xss_scanner.py -u "http://example.com/search" -m POST/GET -w post/get_payloads.txt -wc css_payloads.txt -wj js_payloads.txt -pp test -pg test -pc test.css -pj test.js
 ```
+<img src="own_parameter.png" alt="Own Parameter Scan" width="500"/>
 
 ## Screenshots
 **post parameter auto scan**
@@ -104,3 +108,6 @@ python3 xss_scanner.py -u "http://example.com/search" -m POST/GET -w post/get_pa
 
 **get parameter auto scan**
 ![Screenshot](GET_parameters.png)
+
+**own parameter scan**
+![Screenshot](own_parameters.png)
