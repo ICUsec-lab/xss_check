@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 python3 xss_scanner.py -h
 ```
 
-##**Usage**
+## Usage
 **Basic Usage**
 To scan a target URL for XSS vulnerabilities:
 ```bash
